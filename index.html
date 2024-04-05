@@ -1,0 +1,239 @@
+    <!DOCTYPE html>
+
+<html lang="en-us">
+	<head>
+		
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="group name" content=""/>
+		<meta name="author" content="Fadheel Shah, Tanwir Faiz"/>
+		<meta http-equiv="content type">
+		<meta content="text/html">
+		
+		<title>CLINICEASE</title>
+		
+		<style type= "text/css">
+			
+			body{
+				font-family: arial, san-serif;
+				background-color:#e6e6e6;
+				color: #000000;
+				margin: 0;
+				padding: 0;
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+			}
+			
+			<!--.container {
+			width: 80%;
+			margin: 0 auto;
+			}-->
+
+			header {
+			  background-color:#99ccff;
+			}
+
+			header::after {
+			  content: '';
+			  display: table;
+			  clear: both;
+			}
+	
+			nav {
+			  float: right;
+			}
+
+			nav ul {
+			  margin: 0;
+			  padding: 0;
+			  list-style: none;
+			}
+
+			nav li {
+			  display: inline-block;
+			  margin-right: 100px;
+			  padding-top: 23px;
+
+			  position: relative;
+			}
+
+			nav a {
+			  color: #444;
+			  text-decoration: none;
+			  text-transform: uppercase;
+			  font-size: 14px;
+			}
+
+			nav a:hover {
+			  color: #000;
+			}
+
+			nav a::before {
+			  content: '';
+			  display: block;
+			  height: 5px;
+			  background-color: #444;
+
+			  position: absolute;
+			  top: 0;
+			  width: 0%;
+
+			  transition: all ease-in-out 250ms;
+			}
+
+			nav a:hover::before {
+			width: 100%;
+			}
+			
+			section{
+			padding-top: 2px;
+			padding-left: 6px;
+			}
+			
+			table tr td{padding: 10px;}
+			
+			.table{
+			display: inline-block;
+			vertical-align:top;
+			padding: 10px;
+			border: 1px solid;
+			border-radius: 10px;
+			}
+			
+			.column{border: 1px solid;}
+			
+			footer{
+			margin-top: auto;
+			color: #444;
+			}
+			
+			footer section{
+				height:100px; 
+				background-color:#99ccff;
+			}
+			
+		</style>
+	</head>
+	
+
+	<body>
+		<header>
+			<section>
+				<img src="images\Logo.png" alt="Logo image" title="medical clinic image" height="85px" width="120px">
+				<nav>
+					<ul>
+						<li><a href= "#" target="_blank">Home</a></li>
+						<li><a href= "#" target="_blank">Services</a></li>
+						<li><a href= "#" target="_blank">Booking</a></li>
+						<li><a href= "#" target="_blank">About Us</a></li>
+						<li><a href= "#" target="_blank">Feedback</a></li>
+						<li>
+							<form id="form"> 
+								<input type="search" id="query" name="q" placeholder="Search...">
+								<button>Search</button>
+							</form>
+						</li>
+					</ul>
+					
+				</nav>
+			</section>
+		</header>
+		
+		<h2>Our Vision</h2>
+		<section>
+			<table>
+				<tr>
+					<td>
+						<img src="images\Logo.png" alt="Logo image" title="medical clinic image" height="200px" width="240px">
+					</td>
+					<td>
+						<p>
+							Patients are the reason we are here – they are the focus of what we do. How we do things is as important as what we do. Respect, support and compassion go hand in hand with knowledge, skills and wisdom. Safety and care of patients and staff are fundamental. Excellence is the measure we work to everyday. Through research and education we set new standards for tomorrow. We work together. We all play vital roles in a team that achieves extraordinary results. We share ideas and demonstrate behaviors that inspire others to follow.
+						</p>
+						
+						<p>
+							<ul>
+								<li>
+								Share your experiences as a patient, carer or family member to help us plan, design, implement and evaluate care and services.</li>
+								<li>It is a priority to ensure that our services are fair, accessible and appropriate for all patients.</li>
+								<li>We encourage the involvement of patients, family and carers.</li>
+							</ul>
+						</p>
+						
+						<p>
+							The Patients Come First Strategy is PremiumCare’s ‘roadmap’ for putting patients and their families at the centre of care through supporting their own individual healthcare needs and rights.
+						</p>
+						
+					</td>
+				</tr>
+			</table>
+		</section>
+
+		<!--tr is each row and td(column) is the description-->
+		<section>
+			<table class="table">
+				<tr>
+					<th>
+						Services
+					</th>
+				</tr>
+
+				<tr>
+					<td>
+						<ul style="text-align: left;"> 
+							<li>Primary Care Consultations</li>
+							<li>Preventive Care</li>
+							<li>Chronic Disease Management</li>
+							<li>Routin Checkup And Physical Examination</li>
+							<li>Referals To Specialist</li>
+							<li>Lab Test</li>
+							<li>precription of Meds</li>
+							<li>Health Counseling</li>
+							<li>Minor Surgucal procedures</li>
+							<li>Occcupational Health Services</li>
+						</ol>
+					</td>
+				</tr>
+			</table >
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<table class="table">
+				<tr>
+					<th>
+						Bookings
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Which Problems you're regarding your Health, call or email us to  make an appointment. 
+					</td>
+				</tr>
+			</table>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<table class="table">
+				<tr>
+					<th>
+						Opening Hours
+					</th>
+				</tr>
+				<tr>
+					<td class="column">Monday - Friday</td>
+					<td class="column">8:30am - 9:00pm</td>
+				</tr>
+				<tr>
+					<td class="column">Staturday - Sunday</td>
+					<td class="column">9:00am - 7:00pm</td>
+				</tr>
+			</table>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</section>
+		
+		<footer>
+			<section>
+				<p>Contact - Clinicease@gmail.com</p>
+				<p>All rights are reserved Copyright © 2024 CliniEase</p>
+			</section>
+		</footer>
+
+	</body>
+</html>
